@@ -1,4 +1,4 @@
-package com.mkyong;
+package com.xinyinlong.controller;
 
 import org.junit.Test;
 
