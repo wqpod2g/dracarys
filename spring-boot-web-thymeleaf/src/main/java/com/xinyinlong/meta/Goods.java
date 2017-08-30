@@ -62,4 +62,16 @@ public class Goods {
     public void setPicture(String picture) {
         this.picture = picture == null ? null : picture.trim();
     }
+
+    @Override
+    public String toString() {
+        return "Goods{" +
+                "id=" + id +
+                ", info='" + info + '\'' +
+                ", skuId='" + skuId + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", picture='" + picture + '\'' +
+                '}';
+    }
 }
