@@ -1,6 +1,6 @@
 package com.xinyinlong.dao.mapper;
 
-import com.xinyinlong.controller.SpringBootWebApplication;
+import com.xinyinlong.SpringBootWebApplication;
 import com.xinyinlong.meta.Goods;
 import org.junit.Test;
 import org.junit.runner.RunWith;

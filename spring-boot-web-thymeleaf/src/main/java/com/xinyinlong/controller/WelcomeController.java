@@ -25,8 +25,9 @@ public class WelcomeController {
 		return "welcome";
 	}
 
+	@RequestMapping("index")
 	public String test() {
-		return "hello";
+		return "index";
 	}
 
 }
