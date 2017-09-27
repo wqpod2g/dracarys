@@ -19,65 +19,6 @@
 	content="Fashion Mania Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <body>
-	<!--header-->
-	<div class="header">
-		<div class="header-top">
-			<div class="container">
-				<div class="col-md-4 world">
-				</div>
-				<div class="col-md-4 logo">
-					<a href="index.html"><img
-						src="<c:url value="/images/logo.png"/>" alt=""></a>
-				</div>
-
-				<div class="col-md-4 header-left">
-					<p class="log">
-						<a href="<c:url value="/user/login"/>"> <span
-							class="glyphicon glyphicon-user" aria-hidden="true"></span> 用户登录
-						</a>
-					<div class="cart box_1">
-						<a href="javascript:;" data-toggle="modal"
-							data-target=".bs-example-modal-lg">
-							<h3>
-								<div class="total">
-									<span class="simpleCart_total"></span>
-								</div>
-								<img src="<c:url value="/images/cart.png"/>" alt="" />
-							</h3>
-						</a>
-						<p>
-							<a href="javascript:;" class="simpleCart_empty">清空购物车</a>
-						</p>
-
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="head-top">
-				<div class="col-md-2 number">
-				</div>
-				<div class="col-md-8 h_menu4">
-					<ul class="memenu skyblue">
-						<li class=" grid"><a href="<c:url value="/goods/index"/>">首页</a></li>
-						<li><a href="<c:url value="/goods/index"/>">Men</a>
-							</li>
-						<li class="grid"><a href="<c:url value="/goods/index"/>"> Women</a>
-							</li>
-						<li><a href="<c:url value="/goods/index"/>">Blog</a></li>
-						<li><a class="color6" href="<c:url value="/goods/index"/>">Conact</a></li>
-					</ul>
-				</div>
-				<div class="col-md-2 search">
-					<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i
-						class="glyphicon glyphicon-search"> </i> </a>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
 	<!--//header-->
 	<div class="account">
 		<div class="container">
@@ -91,11 +32,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<input type="hidden" type="text" name="pass" id="pass">
 
 						<div class="word-in">
-							我是买家&nbsp; <input type="radio" checked="checked" name="flag"
-								value="0" /><br>
-							<hr>
-							我是卖家&nbsp; <input type="radio" name="flag" value="1" /><br>
-							<hr>
 							<input type="submit" value="  登录  ">
 							<p style="color: red">${message}</p>
 						</div>

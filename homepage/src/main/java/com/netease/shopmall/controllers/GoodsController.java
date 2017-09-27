@@ -33,24 +33,6 @@ public class GoodsController {
 	CartService cartservice;
 	
 	/*
-	 * 首页展示
-	 */
-	@RequestMapping("/index")
-	public String index(Model model,HttpServletRequest request){
-		HttpSession session = request.getSession();
-		User user = (User) session.getAttribute("buyerUser");
-		if(user!=null) {
-			model.addAttribute("buyerName",user.getName());
-			model.addAttribute("simpleCart_items",cartservice.getAllItem(user.getName()));
-		}
-		else {
-			model.addAttribute("buyerName","");
-		}
-		model.addAttribute("goods", goodsService.getAllGoods());
-		return "/goods/index";
-	}
-	
-	/*
 	 * 产品列表与分页Action
 	 */
 	@RequestMapping("/list")
@@ -199,7 +181,7 @@ public class GoodsController {
 		}
 		Goods entity = goodsService.getGoodsById(id);
 		model.addAttribute("entity", entity);
-		return "/goods/single";
+		return "/homepage/good_detail";
 	}
 	
 }

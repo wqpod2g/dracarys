@@ -38,15 +38,8 @@ public class UserController {
 		if(userService.checkLogin(user)) {
 			logger.info("用户 "+user.getName()+" 登录");
 			HttpSession session = request.getSession();
-			//卖家登录
-			if(user.getFlag()==1) {
-				session.setAttribute("sellerUser",user);
-				return "redirect:/goods/list";
-			}
-			else {
-				session.setAttribute("buyerUser",user);
-				return "redirect:/goods/index";
-			}
+			session.setAttribute("sellerUser",user);
+			return "redirect:/goods/list";
 		}
 		else {
 			redirectAttributes.addFlashAttribute("message", "用户名密码错误!");
@@ -57,18 +50,7 @@ public class UserController {
 	@RequestMapping("/loginout")
 	public String loginOut(HttpServletRequest request) {
 		HttpSession session = request.getSession();
-		session.setAttribute("buyerUser", null);
 		session.setAttribute("sellerUser", null);
-		return "redirect:/goods/index";
+		return "redirect:/user/login";
 	}
-	
-	@RequestMapping("/checkbill")
-	public String checkbill(Model model,HttpServletRequest request) {
-		HttpSession session = request.getSession();
-		User user = (User) session.getAttribute("buyerUser");
-		if(user==null) return "/account/login";
-		model.addAttribute("orders", cartservice.getAllOrders(user.getName()));
-		return "/goods/bill";
-	}
-
 }
