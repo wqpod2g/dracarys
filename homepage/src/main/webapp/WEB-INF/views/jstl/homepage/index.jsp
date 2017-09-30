@@ -204,7 +204,7 @@ function changeTheme(index){
  </div>
 </div>
 <div class="right_con">
-<div class="h_typename"><b>新闻资讯</b><i>News center</i><em><a href="news.jsp"><img src="images/more01.jpg" border="0"></a></em></div>
+<div class="h_typename"><b>新闻资讯</b><i>News center</i><em><a href="news.jsp"><img src="/images/more01.jpg" border="0"></a></em></div>
 <!------------------------>
 <div class="news_rollBox">
 <div class="h_Box" id="ISL_Cont_1">
@@ -310,7 +310,7 @@ function changeTheme(index){
 
 
 <div class="right_box">
-<div class="h_typename"><b>公司简介</b><i>About us</i><em><a href="aboutus.jsp"><img src="images/more01.jpg" border="0"></a></em></div>
+<div class="h_typename"><b>公司简介</b><i>About us</i><em><a href="aboutus.jsp"><img src="/images/more01.jpg" border="0"></a></em></div>
 <div class="h_con">
 &nbsp; &nbsp; &nbsp;南宁市新银龙机电设备有限公司是一家专业经营柴油发电机组的企业，前身为香港资深的发电机组安装保养工程公司,包括管理、技术咨询、设计、销售、合同执行、售后等部门均有从业多年、经验丰富的人员配备 ...........
 </div>
@@ -338,12 +338,12 @@ function changeTheme(index){
 		<td style="padding:0 20px 0 0;">
 			<p>
 				<i>
-					<a href="http://www.xinyinlong.com/product_detailed.asp?nid=22" title="${entity.name}" target="_blank">
+					<a href="/goods/single/${entity.id}" title="${entity.name}" target="_blank">
 						<img src="<c:url value="/images/${entity.picture}"/>" border="0"  width="200" height="137" style="margin-top: 1.5px;">
 					</a>
 				</i>
 				<u>
-					<a href="http://www.xinyinlong.com/product_detailed.asp?nid=22" title="${entity.name}" target="_blank">${entity.name}</a>
+					<a href="/goods/single/${entity.id}" title="${entity.name}" target="_blank">${entity.name}</a>
 				</u>
 			</p>
 		</td>
@@ -396,7 +396,7 @@ colee_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
 <div class="h_typename"><b>荣誉资质</b><i>Honor</i></div>
 <dl>
 
-<dt><a href="http://www.xinyinlong.com/aboutus.asp?nid=2" title="南宁市新银龙机电设备有限公司是一家专业经营机电设备的企业....."><img src="images/2015824163937681.jpg" width="210" height="80" border="0"></a></dt>
+<dt><a href="/homepage/aboutus" title="南宁市新银龙机电设备有限公司是一家专业经营机电设备的企业....."><img src="/images/2015824163937681.jpg" width="210" height="80" border="0"></a></dt>
 <dd>南宁市新银龙机电设备有限公司是一家专业经营机电设备的企业.....</dd>
 
 </dl>
@@ -406,7 +406,7 @@ colee_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
 <div class="h_typename"><b>经典案例</b><i>Case</i></div>
 <dl>
 
-<dt><a href="http://www.xinyinlong.com/case.html" title="To Be Update"><img src="images/20148260335996.jpg" width="210" height="80" border="0"></a></dt>
+<dt><a href="/homepage/cases" title="To Be Update"><img src="/images/20148260335996.jpg" width="210" height="80" border="0"></a></dt>
 <dd>To Be Update</dd>
 
 </dl>
@@ -416,8 +416,8 @@ colee_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
 <div class="h_typename"><b>技术支持</b><i>Support</i></div>
 <dl>
 
-<dt><a href="http://www.xinyinlong.com/service.html" title="技术人员                                                                     
-梁工 18665555680"><img src="images/20148260344960.jpg" width="210" height="80" border="0"></a></dt>
+<dt><a href="/homepage/service" title="技术人员
+梁工 18665555680"><img src="/images/20148260344960.jpg" width="210" height="80" border="0"></a></dt>
 <dd>技术人员                                                                     
 梁工 18665555680</dd>
 
@@ -428,7 +428,7 @@ colee_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
 <div class="h_typename"><b>联系我们</b><i>Contact us</i></div>
 <dl>
 
-<dt><img src="images/20151015145556683.png" border="0"></dt>
+<dt><img src="/images/20151015145556683.png" border="0"></dt>
 <dd>电话：020-39150928</dd>
 
 </dl>

@@ -104,7 +104,6 @@
 
                 </div>
             </div>
-            <script type="text/javascript" src="./LB5C 母线槽-母线槽-产品中心-广州邦顿机电设备有限公司-发电机组-母线槽_files/jquery-1.8.3.min.js.下载"></script>
 
             <script type="text/javascript">
                 $(".ad_prev a,.ad_next a").hide();
@@ -190,18 +189,6 @@
 
                 <li><a href="http://www.bonton-gz.com/product.asp?classid=10" title="柴油发电机组">柴油发电机组</a></li>
 
-
-                <li class="litwo"><a href="http://www.bonton-gz.com/product.asp?classid=11" title="雅柯斯柴油发电机组">雅柯斯柴油发电机组</a></li>
-
-                <li class="litwo"><a href="http://www.bonton-gz.com/product.asp?classid=12" title="原装进口三菱重工柴油发电机组">原装进口三菱重工柴油发电机组</a></li>
-
-                <li><a href="http://www.bonton-gz.com/product.asp?classid=13" title="空调">空调</a></li>
-
-
-                <li class="litwo"><a href="http://www.bonton-gz.com/product.asp?classid=14" title="空调典型业绩">空调典型业绩</a></li>
-
-                <li class="litwo"><a href="http://www.bonton-gz.com/product.asp?classid=15" title="海信日立空调系列产品">海信日立空调系列产品</a></li>
-
             </ul>
             <em></em>
             <div class="h_typename_c">联系方式</div>
@@ -243,8 +230,8 @@
             <div class="main_box">
                 <!------------------------>
                 <div class="pro_xx_box">
-                    <div class="h_title">LB5C 母线槽</div>
-                    <div class="h_imgb"><img src="./LB5C 母线槽-母线槽-产品中心-广州邦顿机电设备有限公司-发电机组-母线槽_files/2014829132255107.jpg" border="0" onload="DrawImage_w(this,790);" width="790" height="256"></div>
+                    <div class="h_title">${entity.name}</div>
+                    <div class="h_imgb"><img src="/images/${entity.picture}" border="0" width="50%"></div>
                     <div class="h_content"><strong><span style="color:#333333;"><span style="font-family:宋体;">技术参数<br>
 </span></span></strong><span style="font-family:宋体, Arial;line-height:25px;color:#333333;"><span style="font-family:宋体;"> 电流等级： 800A～5000A<br>
 工作电压： 690VAC<br>
@@ -257,9 +244,6 @@
 <span>&nbsp;&nbsp;&nbsp;</span>产品结构：内置LB母线槽主体，中置隔热层，外置耐火材料；<br>
 <span>&nbsp;&nbsp;&nbsp;</span>耐火时间：分别为60min、90min、180min ；<br>
 <span>&nbsp;&nbsp;&nbsp;</span>应用场所：广泛应用于涉及到消防配电安全的重要配电场所</span></span></div>
-                    <div class="h_prenext">
-                        上一个：&nbsp;<a href="http://www.bonton-gz.com/product_detailed.asp?nid=4">LB6C 母线槽</a><br>下一个：&nbsp;<font color="#999999">没有了！</font>
-                    </div>
                 </div>
                 <!------------------------>
             </div>

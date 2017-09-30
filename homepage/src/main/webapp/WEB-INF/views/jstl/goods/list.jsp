@@ -28,8 +28,8 @@
 					<th>编号</th>
 					<th>商品名</th>
 					<th>商品信息</th>
+					<th>图片</th>
 					<th>价格</th>
-					<th>类型</th>
 					<th>操作</th>
 				</tr>
 				<c:forEach var="entity" items="${goods}">

@@ -46,8 +46,8 @@
 .ad_Container .ad_imgcon{ position:absolute; z-index:5; top:0px; right:0px; width:100%; height:100%; background-position:center top; background-repeat:no-repeat; }
 
 .ad_Container .ad_button{ position:absolute; z-index:10; left:0px; bottom:35px; width:100%; height:14px; text-align:center; }
-.ad_Container .ad_btn{ margin:0 3px; width:18px; height:8px; background:url(/ad_js/yandian.jpg) no-repeat left top; border:0px; cursor:pointer; display:inline-block; }
-.ad_Container .ad_btn_sel{ background:url(/ad_js/yandian.jpg) no-repeat right top; }
+.ad_Container .ad_btn{ margin:0 3px; width:18px; height:8px; background:url(/images/yandian.jpg) no-repeat left top; border:0px; cursor:pointer; display:inline-block; }
+.ad_Container .ad_btn_sel{ background:url(/images/yandian.jpg) no-repeat right top; }
 
 
 .ad_Container .ad_prev,.ad_Container .ad_next{ position:absolute; z-index:8; top:222px; }
@@ -56,11 +56,11 @@
 
 .ad_Container .ad_prev a,.ad_Container .ad_next a{ display:block; width:26px; height:46px;}
 
-.ad_Container .ad_prev a:link,.ad_Container .ad_prev a:visited{background:url(ad_js/paddle_prev.png) no-repeat center;}
-.ad_Container .ad_prev a:hover,.ad_Container .ad_prev a:active{background:url(ad_js/paddle_prev2.png) no-repeat center;}
+.ad_Container .ad_prev a:link,.ad_Container .ad_prev a:visited{background:url(/images/paddle_prev.png) no-repeat center;}
+.ad_Container .ad_prev a:hover,.ad_Container .ad_prev a:active{background:url(/images/paddle_prev2.png) no-repeat center;}
 
-.ad_Container .ad_next a:link,.ad_Container .ad_next a:visited{background:url(ad_js/paddle_next.png) no-repeat center;}
-.ad_Container .ad_next a:hover,.ad_Container .ad_next a:active{background:url(ad_js/paddle_next2.png) no-repeat center;}
+.ad_Container .ad_next a:link,.ad_Container .ad_next a:visited{background:url(/images/paddle_next.png) no-repeat center;}
+.ad_Container .ad_next a:hover,.ad_Container .ad_next a:active{background:url(/images/paddle_next2.png) no-repeat center;}
 </style>
 <div class="ad_sliderContainer">
         <div class="ad_Container">
@@ -85,11 +85,11 @@
 			<div class="ad_next"><a href="javascript:doChange1(tindex+1);" style="display: none;"></a></div>
             
 
-			<div id="ad_imgbox1" class="ad_imgcon" style="background-image: url(&quot;images/201482523493196.jpg&quot;); right: 1744.26px; display: block;">
+			<div id="ad_imgbox1" class="ad_imgcon" style="background-image: url(&quot;/images/201482523493196.jpg&quot;); right: 1744.26px; display: block;">
 			<a style="width:100%; height:435px; float:left; display:block;" href="http:" target="_blank"></a>
             </div>
 
-			<div id="ad_imgbox2" class="ad_imgcon" style="background-image: url(&quot;images/201482523493196.jpg&quot;); right: -140.213px;">
+			<div id="ad_imgbox2" class="ad_imgcon" style="background-image: url(&quot;/images/201482523493196.jpg&quot;); right: -140.213px;">
 			<a style="width:100%; height:435px; float:left; display:block;" href="http:" target="_blank"></a>
             </div>
 
@@ -175,7 +175,7 @@ function changeTheme(index){
 <!-----------------top1------------------>
 <!-----------------mid0------------------>
 
-<div class="ny_location_box"><p><b>所在位置：</b><a href="http://www.xinyinlong.com/">首页</a> &gt; <a href="contactus.jsp">新闻动态</a> &gt; <a href="news.jsp" class="con">公司新闻</a></p></div>
+<div class="ny_location_box"><p><b>所在位置：</b><a href="http://www.xinyinlong.com/">首页</a> &gt; <a href="/homepage/news">新闻动态</a> &gt; <a href="/homepage/news" class="con">公司新闻</a></p></div>
 
 
 <div class="ny_mid_con">
@@ -184,7 +184,7 @@ function changeTheme(index){
 <div class="h_typename">公司新闻</div>
 <ul>
 
-<li><a href="news.jsp" title="行业动态" class="con">行业动态</a></li>
+<li><a href="/homepage/news" title="行业动态" class="con">行业动态</a></li>
 
 </ul>
 <em></em>
